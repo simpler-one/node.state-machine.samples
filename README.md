@@ -1,2 +1,2 @@
-# node.state-machine.samples
-Samples for state-machine
+# State machine samples
+Samples for [state-machine](https://github.com/work-work-komei/node.state-machine)
