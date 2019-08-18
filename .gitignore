@@ -1,3 +1,14 @@
+# .config/ : necessary
+.local/
+dist/
+# samples : necessary
+spec/built/
+# src/ : necessary
+# .gitignore : necessary
+# .travis.yml : necessary
+
+#---------------
+
 # Logs
 logs
 *.log

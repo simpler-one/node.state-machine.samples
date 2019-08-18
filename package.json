@@ -1,0 +1,47 @@
+{
+  "name": "@working-sloth/state-machine.sample",
+  "version": "0.0.0",
+  "description": "Samples",
+  "scripts": {
+    "prepublishOnly": "exit 1",
+    "build": "rimraf dist && tsc -p src",
+    "test": "exit 0",
+    "exec": "ts-node -P .config/tsconfig.base.json --files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/work-work-komei/node.state-machine.samples.git"
+  },
+  "keywords": [
+    "fsm",
+    "finite state machine",
+    "automaton",
+    "puml",
+    "PlantUML",
+    "statechart",
+    "sloth",
+    "lazy",
+    "diligent"
+  ],
+  "author": "Hiroaki Kobayashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/work-work-komei/node.state-machine.samples/issues"
+  },
+  "homepage": "https://github.com/work-work-komei/node.state-machine.samples#readme",
+  "dependencies": {
+    "@working-sloth/puml-writer": "^1.0.0",
+    "@working-sloth/state-machine": "^2.1.1",
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.13",
+    "@working-sloth/data-matrix": "^2.0.0",
+    "codecov": "^3.5.0",
+    "jasmine": "^3.4.0",
+    "remap-istanbul": "^0.13.0",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
